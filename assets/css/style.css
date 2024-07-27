@@ -42,7 +42,7 @@ html::-webkit-scrollbar-thumb {
 
 
 .loader-container {
-  position: sticky;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 10000;
@@ -58,7 +58,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 header {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   right: 0;
